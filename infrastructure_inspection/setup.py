@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+		'damage_detector = infrastructure_inspection.damage_detector:main'
         ],
     },
 )
